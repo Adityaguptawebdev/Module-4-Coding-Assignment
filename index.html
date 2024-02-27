@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution</title>
+</head>
+<body>
+    <!-- Your HTML content goes here if needed -->
+    <script src="your_external_library_1.js"></script>
+    <script src="your_external_library_2.js"></script>
+    <script>
+        // Define an array of names
+        var names = ["John", "Jane", "Bob", "Alice", "Jack"];
+        
+        // Loop over each name
+        for (var i = 0; i < names.length; i++) {
+            // Get the current name
+            var name = names[i];
+            
+            // Check if the name starts with 'j' or 'J'
+            if (name.charAt(0).toLowerCase() === 'j') {
+                // If it starts with 'j' or 'J', print "Goodbye" to the console
+                console.log("Goodbye " + name);
+            } else {
+                // If it starts with any other letter, print "Hello" to the console
+                console.log("Hello " + name);
+            }
+        }
+    </script>
+</body>
+</html>
